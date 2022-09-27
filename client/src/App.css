@@ -1,0 +1,77 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,400;1,500&display=swap");
+
+/* Global Variables */
+:root{
+  --main:#daf107;
+}
+body{
+  font-family: "Besley", serif;
+  background: #000;
+  color: #fff;
+}
+*{
+  transition: 0.3s;
+}
+*::selection {
+  background: var(--main);
+  color: #000;
+}
+.btn {
+  width: 300px;
+  border: 1px solid var(--main);
+  color: var(--main) !important;
+  border-radius: 15px !important;
+  position: relative;
+  z-index: 1;
+  top: 20;
+}
+.btn::after{
+  content: "";
+  background: var(--main);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0px;
+  display: block;
+  position: absolute;
+  border-radius: 15px;
+  transition: 0.3s;
+  z-index: -1;
+}
+.btn:hover::after{
+  width: 100%;
+}
+.btn:hover {
+  color: #000 !important;
+  font-weight: bold;
+}
+html::-webkit-scrollbar {
+  width: 10px;
+}
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+html::-webkit-scrollbar-track {
+  background-color: #000 !important;
+}
+.content {
+  text-align: center;
+  margin: 80px auto;
+}
+.content h6 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.content h6 span {
+  font-size: 60px;
+  color: var(--main);
+}
+a {
+  text-decoration: none;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: var(--main);
+}

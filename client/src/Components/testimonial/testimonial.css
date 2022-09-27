@@ -1,0 +1,36 @@
+.testimonial {
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+.testimonial .box {
+  border: 1px solid #fff;
+  position: relative;
+  padding: 8px;
+}
+.testimonial .box:hover {
+  transform: scale(1.06);
+}
+.testimonial .row {
+  margin: 100px auto;
+}
+.testimonial i {
+  font-size: 30px;
+  color: var(--main);
+}
+.testimonial .box h6 {
+  font-size: 20px;
+  margin: 15px auto;
+}
+.testimonial img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  margin-top: -30px;
+  border: 2px solid #fff !important;
+}
+.content {
+  margin-top: -250px !important;
+}

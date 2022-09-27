@@ -1,0 +1,56 @@
+.header {
+  position: relative;
+}
+.header img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.header  .btn {
+  margin: 10px auto !important;
+}
+.header .Overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.4;
+}
+.header .Content {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.header .Content h6 {
+  font-size: 70px;
+  font-weight: 600;
+}
+.header .Content h6 span {
+  font-weight: 900;
+  font-size: 75px;
+  color: var(--main) !important;
+}
+.social_media {
+  margin-bottom: 200px;
+  background: var(--main);
+  color: #000 !important;
+  padding: 5px;
+  text-align: center;
+}
+.social_media .col-sm-4:hover {
+  background: #000;
+  color: #fff !important;
+  padding: 5px;
+  cursor: pointer;
+}
+.social_media i {
+  font-size: 30px;
+  padding-right: 10px;
+}
+.social_media span {
+  font-size: 20px;
+  font-weight: 600;
+}

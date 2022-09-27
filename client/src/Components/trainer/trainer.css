@@ -1,0 +1,32 @@
+
+.trainer .row {
+  margin: 100px auto;
+}
+.trainer .box {
+  border: 1px solid #fff;
+  overflow: hidden;
+  text-align: center;
+}
+.trainer img {
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+.trainer .box:hover img {
+  transform: scale(1.1);
+}
+.trainer .box h5 {
+  font-size: 25px;
+  margin: 15px auto;
+}
+.trainer i {
+  font-size: 30px;
+  margin: 5px;
+  color: var(--main);
+}
+.trainer p {
+  font-size: 12px;
+}
+.trainer .btn {
+  margin: 10px auto !important;
+}
